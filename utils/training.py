@@ -14,7 +14,7 @@ import pandas as pd
 import tensorflow as tf
 
 np.random.seed(98765)
-tf.random.set_seed(98765)
+tf.random.set_random_seed(98765)
 
 # from tensorflow.python import debug as tf_debug
 
