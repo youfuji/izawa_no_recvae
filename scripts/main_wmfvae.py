@@ -14,7 +14,7 @@ if __name__ == '__main__':
     BREAK_EARLY = False
     BATCH_SIZE = 500
 
-    for data_subdir in ['ml-20m', 'netflix-prize', 'msd']:
+    for data_subdir in ['amazon']:
         actor_path = "WMFVAE_ACTOR_TRAIN_{}".format(data_subdir)
         train(
             model_class='wmf_vae',
